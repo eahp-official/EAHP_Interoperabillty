@@ -12,6 +12,8 @@ Description: "SupplyDelivery profile for EAHP Interoperability SIG."
 * supplier.extension contains SupplierDevice named supplierDevice 0..1
 * supplier.extension[supplierDevice].valueReference only Reference(Device)
 * destination MS
+* status 1..1
+* status MS
 
 Extension: SupplierDevice
 Id: supplier-device
