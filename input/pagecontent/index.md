@@ -7,12 +7,12 @@
 ### Background
 TODO
 
-### Motivations for EAHP interoperability implementation guide
+### Motivations for the EAHP interoperability implementation guide
 
 TODO
 
 ### Integration Overview
-An overview of the integration with some sample message is here:
+An overview of the integration with some sample messages is available here:
 [Overview and sample messages](Overview.html)
 
 ### About FHIR Shorthand
@@ -73,7 +73,7 @@ FHIR Shorthand follows the same modified [semantic versioning](https://semver.or
 * FSH examples for inclusion in FSH Online can be contributed [here](https://github.com/FSHSchool/FSHOnline-Examples).
 
 
-### Partecipants
+### Participants
 
 | Organization | Role |
 |----|----|
