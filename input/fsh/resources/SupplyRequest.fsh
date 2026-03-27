@@ -34,7 +34,8 @@ Description: "SupplyRequest profile for EAHP Interoperability SIG."
 * deliverTo MS
 * deliverTo only Reference(Organization or Location)
 * deliverTo ^short = "The destination of the supply request. If it must be delivered to an automation, this must be a location linked with the device representing the automation."
-
+* status 1..1
+* status MS
 
 CodeSystem: EAHPSupplyRequestIdentifierTypeCS
 Id: eahp-supply-request-identifier-type-cs
