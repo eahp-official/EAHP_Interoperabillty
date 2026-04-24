@@ -26,7 +26,8 @@ Description: "Defines the specific logistical unit managed within EAHP interoper
     rawScan 0..1 MS and
     serialNumber 0..1 MS and
     vendorAssigned 0..1 MS and
-    productBarCode 0..1 MS
+    productCode 0..1 MS and
+    productBarcode 0..1 MS
 
 * instance.identifier[rawScan]
   * ^short = "Raw 2D Barcode Data (e.g. GS1, IFA ASC)"
@@ -38,10 +39,15 @@ Description: "Defines the specific logistical unit managed within EAHP interoper
   * ^definition = "The distinct serial number component extracted from the package identifier. Note: This string is NOT globally unique on its own. It must be scoped by the Product BarCode to be unique."
   * type = http://terminology.hl7.org/CodeSystem/v2-0203#SNO
 
-* instance.identifier[productBarCode]
-  * ^short = "Scanned Product Code (GTIN, PZN, etc)"
-  * ^definition = "The portion of the barcode identifying the product (e.g. GTIN from a GS1 string)."
+* instance.identifier[productCode]
+  * ^short = "Parsed Product Code (GTIN, PZN, etc.)"
+  * ^definition = "The parsed product-code component identifying the product, such as the GTIN AI (01) value from a GS1 DataMatrix, PZN, NRN, or equivalent product identifier."
   * type = EAHPIdentifierTypeCS#PC
+
+* instance.identifier[productBarcode]
+  * ^short = "Product barcode"
+  * ^definition = "The complete commercial product barcode value as scanned or exchanged when it is distinct from the parsed product-code component. For a full GS1 DataMatrix payload, use FMD_BARCODE."
+  * type = EAHPIdentifierTypeCS#PRODUCT_BARCODE
 
 * instance.identifier[vendorAssigned]
   * ^short = "Robot-generated Unique ID (for Unit Doses/Bags)"
@@ -58,5 +64,6 @@ Id: eahp-identifier-type-cs
 Title: "EAHP Identifier Types"
 Description: "Custom identifier types for pharmacy automation."
 * #FMD_BARCODE "Raw Scan Data" "The raw, unparsed data string captured from the package barcode (e.g., GS1 DataMatrix). This string contains the full set of encoded data (GTIN, Lot, Expiry, Serial) including hidden group separators. It is the primary technical key for Falsified Medicines Directive (FMD) verification."
-* #PC "Product Code" "The Product Code from the barcode identifying the product (e.g. GTIN, PZN, NRN...)."
+* #PRODUCT_BARCODE "Product Barcode" "The complete product barcode value as scanned or exchanged, when it is distinct from the parsed product-code component."
+* #PC "Product Code" "The parsed product-code component from the barcode identifying the product (e.g. GTIN, PZN, NRN...)."
 * #HIS_CODE "HIS Code" "The code assigned by Hospital Information System."

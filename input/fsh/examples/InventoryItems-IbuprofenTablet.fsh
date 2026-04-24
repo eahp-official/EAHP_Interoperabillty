@@ -9,8 +9,8 @@ Description: "InventoryItem instance representing a pack of Brufen 30x600mg tabl
 * instance.identifier[rawScan].type = EAHPIdentifierTypeCS#FMD_BARCODE
 * instance.identifier[serialNumber].value = "1HXNA4G4VM"
 * instance.identifier[serialNumber].type = http://terminology.hl7.org/CodeSystem/v2-0203#SNO
-* instance.identifier[productBarCode].value = "05099151015051"
-* instance.identifier[productBarCode].type = EAHPIdentifierTypeCS#PC
+* instance.identifier[productCode].value = "05099151015051"
+* instance.identifier[productCode].type = EAHPIdentifierTypeCS#PC
 * instance.lotNumber = "78241PC"
 * instance.expiry = "2026-05-30"
 * productReference = Reference(M00345)
@@ -26,8 +26,8 @@ Description: "InventoryItem instance representing a pack of Brufen 30x600mg tabl
 * instance.identifier[rawScan].type = EAHPIdentifierTypeCS#FMD_BARCODE
 * instance.identifier[serialNumber].value = "1HXRG3R6T3"
 * instance.identifier[serialNumber].type = http://terminology.hl7.org/CodeSystem/v2-0203#SNO
-* instance.identifier[productBarCode].value = "05099151015051"
-* instance.identifier[productBarCode].type = EAHPIdentifierTypeCS#PC
+* instance.identifier[productCode].value = "05099151015051"
+* instance.identifier[productCode].type = EAHPIdentifierTypeCS#PC
 * instance.lotNumber = "78241PC"
 * instance.expiry = "2026-05-30"
 * productReference = Reference(M00345)
