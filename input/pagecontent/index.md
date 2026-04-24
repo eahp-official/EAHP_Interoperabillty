@@ -5,11 +5,30 @@
 <img src="logo-eahp.svg" alt="Eahp Logo" width="300px" style="float:none; margin: 0px 0px 0px 0px;" />
 
 ### Background
-TODO
+
+Hospital pharmacies across Europe increasingly rely on automation devices — Whole Pack Robots (WPR), Automated Dispensing Cabinets (ADC), Unit Dose Robots (UDR) — to manage medication storage, dispensing, and traceability. These devices are typically procured from different vendors and are expected to operate as an integrated system within the hospital pharmacy.
+
+In practice, communication between devices from different vendors requires bespoke, point-to-point integrations. Each integration is developed and maintained independently, creating significant cost, fragility, and barrier to procurement flexibility.
+
+The EAHP Special Interest Group (SIG) on Interoperability in Pharmacy Automation was established to address this gap. The SIG brings together hospital pharmacists, automation vendors, and standards experts from across Europe. Its mandate is to define a vendor-neutral, pharmacist-validated standard for communication between automation devices — enabling plug-and-play interoperability across competing products.
+
+The SIG operates in two phases. Phase 1 established governance structures, shared definitions, and functional Standard Operating Procedures (SOPs) for each target use case. Phase 2, of which this Implementation Guide is the primary output, translates those SOPs into a FHIR-based technical specification.
 
 ### Motivations for the EAHP interoperability implementation guide
 
-TODO
+The primary motivation for this IG is to enable and accelerate the adoption of pharmacy automation across European hospitals by removing the interoperability barriers that currently make automation more complex and more costly than it needs to be. While integration between pharmacy automation devices is technically possible through customised HL7 or proprietary message formats, no shared, vendor-neutral standard has existed that allows devices to interoperate without bilateral customisation.
+
+Two barriers stand out as the most significant:
+
+Fragmented integrations. Automation devices typically communicate with the Pharmacy Management System (PMS) through point-to-point, proprietary connectors — one per device. While adding a new device does not require rebuilding all existing connectors, each new connector must be developed from scratch, is specific to the combination of device and PMS, and cannot be reused when either system is upgraded or replaced. Across a market with dozens of device vendors and multiple PMS platforms, this creates a large and fragmented integration landscape with no shared components, no portability, and no economies of scale.
+
+Integration cost and complexity. In the absence of a shared standard, the cost of connecting automation devices falls entirely on the hospital — through middleware procurement, bespoke development, and ongoing maintenance. This cost is a barrier to automation adoption, particularly for smaller institutions, and diverts pharmacy IT resources away from higher-value work.
+
+A shared FHIR-based protocol addresses both barriers directly. By replacing bilateral custom integrations with a single common interface, it reduces the cost and effort of connecting devices, makes it easier to add new devices or switch vendors, and allows pharmacy IT teams to focus on clinical value rather than plumbing.
+
+Beyond reducing integration burden, the IG brings additional benefits. A standardised message exchange creates a structured, machine-readable audit trail for every medication movement across the automation network — replacing fragmented, system-specific logs with a consistent and complete traceability record.
+
+The result is a standard that is simple enough for any automation vendor to implement, specific enough to guarantee interoperability across implementations, and deliberately scoped to automated refilling workflows between pharmacy automation devices. This focused scope is intentional: the IG is designed as a foundation and a prime building block on which future SIG phases will expand — progressively covering increasingly complex workflows, without requiring the core protocol to be redesigned. At the EAHP Congress in Barcelona (March 2026), ten vendors demonstrated this in a live showcase — covering 14 devices and 56 device-to-device combinations — with zero per-vendor customisation. This IG formalises that protocol.
 
 ### Integration Overview
 An overview of the integration with some sample messages is available here:
