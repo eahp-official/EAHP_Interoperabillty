@@ -20,7 +20,10 @@ Usage: #inline
 * id = "inv1"
 * status = #active
 * baseUnit = https://afriscic.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs#indivisible-logistical-unit
-* netContent = 10 https://afriscic.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs#indivisible-logistical-unit "Indivisible Logistical Unit"
+* netContent.value = 10
+* netContent.unit = "Indivisible Logistical Unit"
+* netContent.system = "http://example.org/CodeSystem/eahp-logistics-unit-cs"
+* netContent.code = #indivisible-logistical-unit
 * instance.identifier[serialNumber].type = http://terminology.hl7.org/CodeSystem/v2-0203#SNO
 * instance.identifier[serialNumber].value = "SN4519"
 * instance.identifier[productBarcode].type = EAHPIdentifierTypeCS#PRODUCT_BARCODE
