@@ -53,14 +53,14 @@ It uses Contained Resources to provide details on the specific lots available wi
       "id" : "8d043738-bf48-4a2b-aba5-a4a9e8744f63",
       "meta" : {
         "profile" : [
-          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/InventoryItemEAHPInteroperability"
+          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/InventoryItemEAHPInteroperability"
         ]
       },
       "status" : "active",
       "baseUnit" : {
         "coding" : [
           {
-            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs",
+            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-logistics-unit-cs",
             "code" : "indivisible-logistical-unit"
           }
         ]
@@ -77,7 +77,7 @@ It uses Contained Resources to provide details on the specific lots available wi
             "type" : {
               "coding" : [
                 {
-                  "system" : "https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-identifier-type-cs",
+                  "system" : "https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-identifier-type-cs",
                   "code" : "FMD_BARCODE"
                 }
               ]
@@ -97,14 +97,14 @@ It uses Contained Resources to provide details on the specific lots available wi
       "id" : "e2d2688f-2854-48ac-a87a-cb6f4105b36c",
       "meta" : {
         "profile" : [
-          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/InventoryItemEAHPInteroperability"
+          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/InventoryItemEAHPInteroperability"
         ]
       },
       "status" : "active",
       "baseUnit" : {
         "coding" : [
           {
-            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs",
+            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-logistics-unit-cs",
             "code" : "indivisible-logistical-unit"
           }
         ]
@@ -142,14 +142,14 @@ It uses Contained Resources to provide details on the specific lots available wi
       "id" : "9042a2ba-724c-47e4-b64c-6054da9dd4fa",
       "meta" : {
         "profile" : [
-          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/InventoryItemEAHPInteroperability"
+          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/InventoryItemEAHPInteroperability"
         ]
       },
       "status" : "active",
       "baseUnit" : {
         "coding" : [
           {
-            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs",
+            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-logistics-unit-cs",
             "code" : "indivisible-logistical-unit"
           }
         ]
@@ -269,7 +269,7 @@ Request Body (Transaction Bundle):
       "id" : "SupplyRequest-IbuprofenTablet-1Unidose",
       "meta" : {
         "profile" : [
-          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/SupplyRequestEAHPInteroperability"
+          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/SupplyRequestEAHPInteroperability"
         ]
       },
       "identifier" : [
@@ -277,7 +277,7 @@ Request Body (Transaction Bundle):
           "type" : {
             "coding" : [
               {
-                "system" : "https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-supply-request-identifier-type-cs",
+                "system" : "https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-supply-request-identifier-type-cs",
                 "code" : "RequestId"
               }
             ]
@@ -316,7 +316,7 @@ Request Body (Transaction Bundle):
       "id" : "SupplyRequest-IbuprofenTablet-1Pack",
       "meta" : {
         "profile" : [
-          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/SupplyRequestEAHPInteroperability"
+          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/SupplyRequestEAHPInteroperability"
         ]
       },
       "identifier" : [
@@ -324,7 +324,7 @@ Request Body (Transaction Bundle):
           "type" : {
             "coding" : [
               {
-                "system" : "https://eahp-official.github.ioEAHP_Interoperabillty//CodeSystem/eahp-supply-request-identifier-type-cs",
+                "system" : "https://eahp-official.github.ioEAHP_Interoperabillty/CodeSystem/eahp-supply-request-identifier-type-cs",
                 "code" : "RequestId"
               }
             ]
@@ -381,7 +381,7 @@ Request Body (Sent by Supplier):
   "id" : "SupplyDelivery-IbuprofenTabletPack-Example",
   "meta" : {
     "profile" : [
-      🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/SupplyDeliveryEAHPInteroperability"
+      🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/SupplyDeliveryEAHPInteroperability"
     ]
   },
   "contained" : [
@@ -390,14 +390,14 @@ Request Body (Sent by Supplier):
       "id" : "9042a2ba-724c-47e4-b64c-6054da9dd4fa",
       "meta" : {
         "profile" : [
-          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/InventoryItemEAHPInteroperability"
+          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/InventoryItemEAHPInteroperability"
         ]
       },
       "status" : "active",
       "baseUnit" : {
         "coding" : [
           {
-            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs",
+            "system" : "https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-logistics-unit-cs",
             "code" : "indivisible-logistical-unit"
           }
         ]
@@ -435,14 +435,14 @@ Request Body (Sent by Supplier):
       "id" : "e2d2688f-2854-48ac-a87a-cb6f4105b36c",
       "meta" : {
         "profile" : [
-          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/InventoryItemEAHPInteroperability"
+          🔗 "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/InventoryItemEAHPInteroperability"
         ]
       },
       "status" : "active",
       "baseUnit" : {
         "coding" : [
           {
-            "system" : "https://eahp-official.github.ioEAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs",
+            "system" : "https://eahp-official.github.ioEAHP_Interoperabillty/CodeSystem/eahp-logistics-unit-cs",
             "code" : "indivisible-logistical-unit"
           }
         ]
@@ -459,7 +459,7 @@ Request Body (Sent by Supplier):
             "type" : {
               "coding" : [
                 {
-                  "system" : "https://eahp-official.github.ioEAHP_Interoperabillty//CodeSystem/eahp-identifier-type-cs",
+                  "system" : "https://eahp-official.github.ioEAHP_Interoperabillty/CodeSystem/eahp-identifier-type-cs",
                   "code" : "FMD_BARCODE"
                 }
               ]
@@ -481,7 +481,7 @@ Request Body (Sent by Supplier):
             "type" : {
               "coding" : [
                 {
-                  "system" : "https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-identifier-type-cs",
+                  "system" : "https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-identifier-type-cs",
                   "code" : "PRODUCT_BARCODE"
                 }
               ]
@@ -529,7 +529,7 @@ Request Body (Sent by Supplier):
   "supplier" : {
     "extension" : [
       {
-        "url" : "https://eahp-official.github.io/EAHP_Interoperabillty//StructureDefinition/supplier-device",
+        "url" : "https://eahp-official.github.io/EAHP_Interoperabillty/StructureDefinition/supplier-device",
         "valueReference" : {
           🔗 "reference" : "Device/dev-robot-wholepack-01"
         }

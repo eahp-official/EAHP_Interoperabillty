@@ -21,7 +21,7 @@ InstanceOf: InventoryItemEAHPInteroperability
 Usage: #inline
 * id = "Riedl-404839"
 * status = #active
-* baseUnit = https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs#indivisible-logistical-unit
+* baseUnit = https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-logistics-unit-cs#indivisible-logistical-unit
 * netContent.value = 10
 * netContent.unit = "Indivisible Logistical Unit"
 * netContent.system = "http://example.org/CodeSystem/eahp-logistics-unit-cs"

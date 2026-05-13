@@ -19,7 +19,7 @@ InstanceOf: InventoryItemEAHPInteroperability
 Usage: #inline
 * id = "59087d94-1354-4ffa-8527-878c010f324d"
 * status = #active
-* baseUnit = https://eahp-official.github.io/EAHP_Interoperabillty//CodeSystem/eahp-logistics-unit-cs#indivisible-logistical-unit
+* baseUnit = https://eahp-official.github.io/EAHP_Interoperabillty/CodeSystem/eahp-logistics-unit-cs#indivisible-logistical-unit
 * netContent.value = 5
 * netContent.unit = "Indivisible Logistical Unit"
 * netContent.system = "http://example.org/CodeSystem/eahp-logistics-unit-cs"
