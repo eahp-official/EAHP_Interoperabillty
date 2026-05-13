@@ -4,7 +4,7 @@ This page contains auto-generated examples created from barcode data. These exam
 
 ## How These Examples Were Generated
 
-The [BarcodeGenerator](https://github.com/afriscic/EAHP_Interoperabillty/tree/main/BarcodeGenerator) tool reads `BarcodeInput.json` and generates:
+The [BarcodeGenerator](https://github.com/eahp-official/EAHP_Interoperabillty/tree/main/BarcodeGenerator) tool reads `BarcodeInput.json` and generates:
 
 1. **Data Matrix Barcodes** (SVG and PNG) - FMD-compliant GS1 barcodes
 2. **Medication FHIR Resources** - One per unique product (HIS code)
