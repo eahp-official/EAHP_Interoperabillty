@@ -1,4 +1,4 @@
-canonical: "https://eahp-official.github.io/EAHP_Interoperabillty/"
+canonical: "https://eahp-official.github.io/EAHP_Interoperabillty"
 fhirVersion: 5.0.0
 FSHOnly: false
 applyExtensionMetadataToRoot: false
